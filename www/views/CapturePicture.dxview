@@ -1,0 +1,14 @@
+<div data-options="dxView : { name: 'CapturePicture', title: 'CapturePicture' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div data-bind="dxScrollView: {}">
+            <div data-bind="dxButton: { onClick: capturePicture, text: 'Capture' }"></div>
+            <img id="myImage" height="150px" />
+            <hr />
+            <div data-bind="dxButton: { onClick: getLocation, text: 'Get Location' }"></div>
+            <div id="locationInfo"></div>
+            <div data-bind="dxButton: { onClick: getData, text: 'Get Data From Server' }"></div>
+            <div id="datainfo"></div>
+        </div>
+        
+    </div>
+</div>
