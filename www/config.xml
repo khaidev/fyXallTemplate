@@ -20,9 +20,7 @@
   <gap:plugin name="org.apache.cordova.camera" version="0.3.6" />
   <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" source="pgb" />
   <gap:plugin name="org.apache.cordova.inappbrowser" version="0.6.0" />
-  <access origin="*" launch-external="yes" />
-  <access origin="192.168.1.78:8888" />
-  <access origin="192.168.1.78" />
+  <access origin="*" />
   <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>1.0.0</string>
   </gap:config-file>
